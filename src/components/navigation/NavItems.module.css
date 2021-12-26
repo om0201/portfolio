@@ -1,0 +1,20 @@
+.nav__items {
+  list-style: none;
+  display: flex;
+}
+
+.nav__item {
+  margin: 0 1rem;
+  padding-right: 3rem;
+  font-size: 1.2rem;
+}
+
+.nav__item a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+.nav__item a:hover {
+  /* border-bottom: 3px solid linerar-gradient(45deg, #f3ec78, #af4261); */
+  border-bottom: 2px solid #ff8c69;
+}

@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem;
+  margin-bottom: 10vh;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.desc {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+}

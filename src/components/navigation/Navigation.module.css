@@ -1,0 +1,7 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  height: 8vh;
+  align-items: center;
+  justify-content: space-between;
+}

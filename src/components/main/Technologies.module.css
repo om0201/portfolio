@@ -1,0 +1,15 @@
+.list-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.icon {
+  font-size: 5rem;
+  padding: 0 1.5rem;
+}
+
+.description {
+  font-size: 1.5rem;
+}
