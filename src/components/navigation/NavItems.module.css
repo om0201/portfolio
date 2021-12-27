@@ -1,6 +1,7 @@
 .nav__items {
   list-style: none;
   display: flex;
+  justify-content: flex-end;
 }
 
 .nav__item {
@@ -15,7 +16,6 @@
 }
 
 .nav__item a:hover {
-  /* border-bottom: 3px solid linerar-gradient(45deg, #f3ec78, #af4261); */
-  font-size: 1.5rem;
-  transition: font-size 0.5s ease-in-out 0.5s;
+  padding-bottom: 7.5px;
+  border-bottom: 2.5px solid var(--border-color);
 }
