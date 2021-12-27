@@ -1,8 +1,8 @@
-import classes from "./Blogs.module.css";
+import classes from "./BlogsOverview.module.css";
 
 import Card from "../UI/Card";
 
-const Blogs = () => {
+const BlogsOverview = () => {
   const data = [
     {
       id: 1,
@@ -48,4 +48,4 @@ const Blogs = () => {
   );
 };
 
-export default Blogs;
+export default BlogsOverview;

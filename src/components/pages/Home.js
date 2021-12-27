@@ -1,8 +1,8 @@
 import Navigation from "../navigation/Navigation";
 import Introduction from "../main/Introduction";
 import Technologies from "../main/Technologies";
-import Blogs from "../main/Blogs";
-import Projects from "../main/Projects";
+import BlogsOverview from "../main/BlogsOverview";
+import ProjectsOverview from "../main/ProjectsOverview";
 import Footer from "../footer/Footer";
 
 const Home = () => {
@@ -11,8 +11,8 @@ const Home = () => {
       <Navigation />
       <Introduction />
       <Technologies />
-      <Blogs />
-      <Projects />
+      <BlogsOverview />
+      <ProjectsOverview />
       <Footer />
     </>
   );

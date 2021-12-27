@@ -1,8 +1,8 @@
-import classes from "./Projects.module.css";
+import classes from "./ProjectsOverview.module.css";
 
 import Card from "../UI/Card";
 
-const Projects = () => {
+const ProjectsOverview = () => {
   const data = [
     {
       id: 1,
@@ -48,4 +48,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsOverview;
