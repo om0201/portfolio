@@ -2,6 +2,8 @@ import classes from "./BlogsOverview.module.css";
 
 import Card from "../UI/Card";
 
+import { Link } from "react-router-dom";
+
 const BlogsOverview = () => {
   const data = [
     {
@@ -40,9 +42,9 @@ const BlogsOverview = () => {
         ))}
       </div>
       <p className={classes.desc}>
-        <a className={classes.link} href="/">
+        <Link className={classes.link} to="/blogs">
           To see more blogs click here
-        </a>
+        </Link>
       </p>
     </>
   );
