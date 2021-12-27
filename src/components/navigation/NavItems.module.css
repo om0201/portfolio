@@ -16,5 +16,6 @@
 
 .nav__item a:hover {
   /* border-bottom: 3px solid linerar-gradient(45deg, #f3ec78, #af4261); */
-  border-bottom: 2px solid #ff8c69;
+  font-size: 1.5rem;
+  transition: font-size 0.5s ease-in-out 0.5s;
 }
