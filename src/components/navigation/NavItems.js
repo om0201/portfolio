@@ -9,9 +9,6 @@ const NavItems = () => {
         <Link to="/blogs">Blogs</Link>
       </li>
       <li className={classes.nav__item}>
-        <Link to="/resume">Resume</Link>
-      </li>
-      <li className={classes.nav__item}>
         <Link to="/projects">Projects</Link>
       </li>
     </ul>

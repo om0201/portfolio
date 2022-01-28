@@ -1,4 +1,5 @@
 import classes from "./ProjectsOverview.module.css";
+import { Link } from "react-router-dom";
 
 import Card from "../UI/Card";
 
@@ -8,21 +9,21 @@ const ProjectsOverview = () => {
       id: 1,
       name: "Github Profile finder",
       desc: "A simple React app that allows you to search for a Github profile.",
-      link: "https://github-profile-finder.netlify.app/",
+      link: "https://gh-prof-find.vercel.app/",
     },
 
     {
       id: 2,
       name: "Tic Tac Toe",
-      desc: "A simple Tic Tac Toe game built React.",
-      link: "https://tictactoe-react.netlify.app/",
+      desc: "A simple Tic Tac Toe game built using React.",
+      link: "https://tic-t-t.netlify.app/",
     },
 
     {
       id: 3,
-      name: "Mapty",
-      desc: "A vanilla JS app for planning your outdoor runs.",
-      link: "https://mapty.netlify.app/",
+      name: "Workout Mapper",
+      desc: "A vanilla JS app for planning your outdoor runs and cycling sessions.",
+      link: "https://wrkout-mper.netlify.app/",
     },
   ];
 
@@ -40,9 +41,9 @@ const ProjectsOverview = () => {
         ))}
       </div>
       <p className={classes.desc}>
-        <a className={classes.link} href="/">
+        <Link to="/projects" className={classes.link}>
           To checkout all my projects click here
-        </a>
+        </Link>
       </p>
     </>
   );

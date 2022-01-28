@@ -5,7 +5,9 @@ const Navbrand = () => {
   return (
     <div className={classes.brand}>
       <p className={classes["brand-name"]}>
-        <Link to="/home">Omang Morekar</Link>
+        <Link className={classes.link} to="/home">
+          Omang Morekar
+        </Link>
       </p>
     </div>
   );
